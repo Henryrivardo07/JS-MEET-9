@@ -112,3 +112,8 @@ fakeFetchData()
   .catch((err) => {
     console.log(err.message);
   });
+
+//   Konsep Sinkron vs Asinkron (ilustrasi perbedaan)
+console.log("1");
+setTimeout(() => console.log("2 (async)"), 1000);
+console.log("3");
